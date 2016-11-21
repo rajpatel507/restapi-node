@@ -1,0 +1,17 @@
+{
+  "name": "rest-api",
+  "version": "1.0.0",
+  "description": "REST API using node/express/mongoDB",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "REST-API",
+    "mongoDB",
+    "nodejs",
+    "expressjs"
+  ],
+  "author": "Rajesh",
+  "license": "ISC"
+}
