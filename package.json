@@ -1,17 +1,22 @@
 {
-  "name": "rest-api",
-  "version": "1.0.0",
-  "description": "REST API using node/express/mongoDB",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [
-    "REST-API",
-    "mongoDB",
-    "nodejs",
-    "expressjs"
-  ],
-  "author": "Rajesh",
-  "license": "ISC"
+    "name": "rest-api",
+    "version": "1.0.0",
+    "description": "REST API using node/express/mongoDB",
+    "main": "server.js",
+    "dependencies": {
+        "express": "~4.0.0",
+        "mongoose": "~3.6.13",
+        "body-parser": "~1.0.1"
+    },
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [
+        "REST-API",
+        "mongoDB",
+        "nodejs",
+        "expressjs"
+    ],
+    "author": "Rajesh",
+    "license": "ISC"
 }
